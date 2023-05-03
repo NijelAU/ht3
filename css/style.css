@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.top{
+
+}
+
+.header{
+    padding: 40px 0;
+    margin: 0 0 84px 0;
+    box-sizing: border-box;
+}
+
+.logo-img{
+}
+
+.menu{
+}
+
+.menu-list{
+}
+
+.menu-item{
+}
+
+.menu-first-link{
+    color: #F25822;
+}
+
+
+.main-section{
+margin: 0 0 103px 0;
+}
+
+.main-title{
+    margin: 0 0 17px 0;
+}
+
+.main-subtitle{
+    margin: 0 0 37px 0;
+}
+
+.main-btn{
+}
+
+.main-style-btn{
+}
+
+
+.main-img{
+}
+
+.brand{
+}
+
+.brand-list{   
+}
+
+.brand-item{
+}
