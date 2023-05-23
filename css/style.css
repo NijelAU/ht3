@@ -3,62 +3,155 @@
     margin: 0;
 }
 
+
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000; 
+}
+
 a{
     text-decoration: none;
 }
+
+
+.center{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    /* outline: 2px solid black; */
+}
+
+
 .top{
 
 }
 
-.header{
-    padding: 40px 0;
-    margin: 0 0 84px 0;
+.header{ 
+    padding: 0px 0;
+    margin: 40px auto 84px auto;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-menu{
+
 }
 
-.logo-img{
-}
 
-.menu{
-}
 
 .menu-list{
+    max-width: 533px;
+    display: flex;
+    list-style: none;
+    gap: 34px;
 }
 
-.menu-item{
-}
+
+.menu-item{}
+
 
 .menu-first-link{
     color: #F25822;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.menu-other-link{
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 
 .main-section{
-margin: 0 0 103px 0;
+margin: 0 auto 103px auto;
+display: flex;
+gap: 39px;
+}
+
+.left-main-section{    
+    max-width: 522px;
 }
 
 .main-title{
     margin: 0 0 17px 0;
+    font-size: 60px;
+    line-height: 70px;
 }
 
 .main-subtitle{
     margin: 0 0 37px 0;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
 }
 
 .main-btn{
+display: flex;
+gap: 72px;
 }
 
-.main-style-btn{
+
+.main-style-left{
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 15px 36px;
+    box-sizing: border-box;
+    background-color: #F25822;
+    border-radius: 50px;
+    border: none;
 }
 
+.main-style-left:hover{
+    background-color: #ec0e0e;
+    cursor: pointer;
+}
+    
+.main-style-left:active{
+    background-color: #F25822;
+}
+
+.main-style-right{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #AAAAAA;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.main-style-right:hover{
+    color: #F25822;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.main-style-right:active{
+color:#AAAAAA;
+
+}
 
 .main-img{
+    flex-wrap: wrap;
 }
 
 .brand{
+  
 }
 
-.brand-list{   
+.brand-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .brand-item{
