@@ -71,7 +71,8 @@ a{
 .main-section{
 margin: 0 auto 103px auto;
 display: flex;
-gap: 39px;
+justify-content: space-between;
+flex-wrap: wrap;
 }
 
 .left-main-section{    
@@ -139,6 +140,7 @@ color:#AAAAAA;
 
 }
 
+
 .main-img{
     flex-wrap: wrap;
 }
@@ -155,4 +157,172 @@ color:#AAAAAA;
 }
 
 .brand-item{
+}
+
+.top-services {
+    margin: 140px auto 125px auto;
+    
+}
+
+.services-list{
+    list-style: none;
+    display: flex;
+    gap: 61px;
+}
+
+.services-item{
+    max-width: 310;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.services-item:hover{
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.services-icon{
+    width: 70px;
+    height: 70px;
+    margin: 0 0 25px 0;
+    background-image: url(../img/services-icon-1.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.services-list> li:nth-child(2) .services-icon{
+    background-image: url(../img/services-icon\ -2.svg);
+}
+
+.services-list> li:nth-child(2) .services-icon{
+    background-image: url(../img/services-icon-\ 3.svg);
+}
+
+
+.services-title{
+    color: #000000;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 17px 0;
+}
+
+.txt-preview{
+    color: #666666;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0 0 25px 0;
+}
+
+.link-service{
+    color: #000000;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.link-service:hover{
+color: blue;
+}
+.link-service:active{
+color: #000000;
+}
+
+.advantages-block{
+    background-color: #FAFAFA;
+    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000; 
+}
+
+.advantages-title{
+    font-size: 45px;
+    line-height: 53px;
+    padding: 100px 0 19px 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: #000000;
+    
+}
+
+.advantages-description{
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    margin: 0 0 54px 0;
+}
+
+.descriptionitem{
+}
+
+.description-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 22px;    
+}
+.shadow-block{
+    background: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    display:inline-block;
+
+}
+
+.description-icon{
+    width: 370px;
+    height: 270px;
+    background-image: url(../img/description1.png);
+    background-position: center;
+    margin: 0 0 25px 0;
+    background-repeat: no-repeat;
+}
+
+.description-list>li:nth-child(2) > .description-icon{
+    background-image: url(../img/description2.png); 
+}
+
+.description-list>li:nth-child(3) > .description-icon{
+    background-image: url(../img/description3.png); 
+}
+
+.name-description{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 0 25px 0;
+    color: #000000;
+}
+
+.description-offer{
+    max-width: 310px;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 auto 54px auto;
+    color: #AAAAAA;
+}
+
+.description-button{
+    text-align: center;
+    margin: 0 auto 0 auto;
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 15px 41px;
+    box-sizing: border-box;
+    background-color: #F25822;
+    border-radius: 50px;
+    border: none;
+}
+.description-button:hover{
+    background-color: #ec0e0e;
+    cursor: pointer;
+}
+
+.description-button:active{
+    background-color: #F25822;
+    cursor: pointer;
 }
